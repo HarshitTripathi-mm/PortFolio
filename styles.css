@@ -1,0 +1,113 @@
+h1{
+    padding:100px;
+    text-align:center;
+    font-size:60px;
+    color:pink;
+   
+  }
+  em{
+    color:red;
+    font-weight:3;
+  }
+  #welcome-section{
+    height:100vh;
+    float:left;
+    background-color:black;
+  width:100%;
+  }
+  #navbar{
+   background-color:red;
+   border-radius:15px;
+    left:0px;
+    top:0;
+    position:fixed;
+    height:100px;
+   float:left;
+    width:100%;
+   
+   
+  }
+  .items{
+   list-style:none;
+   font-weight:1000;
+    display:flex;
+   flex-wrap:nowrap;
+    justify-content:flex-end;
+    margin:50px 40px;
+    gap:50px;
+    color:black;
+    font-size:23px;
+  }
+  #about{
+    
+  }
+  ul li a{
+     text-decoration:none;
+    color:white;
+  }
+  #title{
+    color:black;
+    font-size:40px;
+    text-align:center;
+    text-decoration-line :underline;  
+  }
+  #projects{
+    background-color:#FFD580;
+    margin-bottom:0px;
+    margin:0px;
+  }
+  .project-tile{
+    display:flex;
+    gap: 50px;
+    justify-content:center;
+    width:100%;
+    
+    
+    
+  }
+  .project-tile a{
+    text-decoration:none;
+    color:black;
+    border: 3px solid white;
+   
+    
+  }
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  
+  img{
+    height:90%;
+    width:100%;
+  }
+  #icon1{
+    width:30px;
+    height:25px;
+  }
+  #contac{
+    float:left;
+   width:100%;
+    background-color:#C0C0C0;
+  }
+  #ruk{
+    display:flex;
+  
+  
+    gap:40px;
+   justify-content:center;
+  
+  }
+  body {
+    overflow-x:hidden;
+  }
+  #top{
+    text-align:center;
+    font-weight:1000;
+    font-size:40px;
+    
+  }
+  
+  
+  
